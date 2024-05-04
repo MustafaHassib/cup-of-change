@@ -1,0 +1,37 @@
+.nav {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  .logo {
+    text-transform: uppercase;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+    &__item {
+      a {
+        font-weight: 100;
+        font-size: 1rem;
+        &.active_item {
+          font-weight: 600;
+        }
+      }
+      text-transform: capitalize;
+      &:hover {
+        border-bottom: 1px solid white;
+      }
+    }
+    &__btn {
+      padding: 0.5rem 1rem;
+      border: 1px solid white;
+    }
+  }
+}
