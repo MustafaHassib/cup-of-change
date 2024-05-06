@@ -1,5 +1,3 @@
-export const AboutPage = () => {
-  return <>About</>;
-};
+import { AboutScreen } from './AboutScreen';
 
-export default AboutPage;
+export default AboutScreen;
