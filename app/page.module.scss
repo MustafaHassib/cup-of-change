@@ -1,8 +1,8 @@
 .wrapper {
-  color: white;
 }
 
 .hero {
+  color: white;
   min-height: 100vh;
   padding: 2rem 5rem;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
@@ -17,6 +17,7 @@
   &__body {
     display: flex;
     justify-content: flex-end;
+    gap: 2rem;
     &__content {
       display: flex;
       flex-direction: column;

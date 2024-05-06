@@ -2,6 +2,7 @@ import Image from 'next/image';
 import styles from './page.module.scss';
 
 import logo from '../public/images/Group 16.svg';
+import { AboutSection } from './components/Homepage/AboutSection/AboutSection';
 
 export default function Home() {
   return (
@@ -25,6 +26,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <AboutSection />
     </div>
   );
 }

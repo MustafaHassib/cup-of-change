@@ -1,0 +1,65 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 5rem 0;
+
+  &__logos {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  &__body {
+    padding: 0 5rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    &__title {
+      font-weight: 600;
+      font-size: 3rem;
+    }
+    &__desc {
+      font-weight: 200;
+      max-width: 60%;
+      margin: auto;
+    }
+    &__cta {
+      margin-top: 2rem;
+      align-self: center;
+      border: 1px solid #151515;
+      padding: 0.5rem 2rem;
+      font-size: 1.2rem;
+    }
+  }
+  &__bottom_bg {
+    width: 100%;
+    background-image: url('../../../../public/images/1314633952.jpg');
+    height: 600px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  &__text_slider {
+    white-space: nowrap;
+    position: relative;
+    display: flex;
+    gap: 2rem;
+    p {
+      font-family: monospace;
+      -webkit-text-fill-color: white;
+      -webkit-text-stroke: 3px black;
+      font-size: calc(6rem + 1vw);
+      font-weight: 800;
+      margin: 0;
+      &:nth-of-type(2) {
+        position: absolute;
+        left: 100%;
+        padding-inline-start: 10rem;
+      }
+    }
+  }
+}
