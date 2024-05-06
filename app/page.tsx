@@ -3,6 +3,7 @@ import styles from './page.module.scss';
 
 import logo from '../public/images/Group 16.svg';
 import { AboutSection } from './components/Homepage/AboutSection/AboutSection';
+import { CategoriesSection } from './components/Homepage/CategoriesSection/CategoriesSection';
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       </div>
 
       <AboutSection />
+      <CategoriesSection />
     </div>
   );
 }

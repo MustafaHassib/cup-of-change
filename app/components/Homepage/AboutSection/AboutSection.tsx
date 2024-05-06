@@ -34,11 +34,11 @@ export const AboutSection = () => {
 
   return (
     <div className={styles.about}>
-      <div className={styles.about__logos}>
-        <Image src={akbarLogo} width={200} alt={''} height={90} />
-        <Image src={greenLogo} width={80} height={90} alt={''} />
-      </div>
       <div className={`${styles.about__body}`}>
+        <div className={styles.about__body__logos}>
+          <Image src={akbarLogo} width={200} alt={''} height={90} />
+          <Image src={greenLogo} width={80} height={90} alt={''} />
+        </div>
         <h2 className={`${styles.about__body__title}`}>
           ALWAYS ABOUT QUALITY & PRODUCT SAFETY BLENDED WITH PERFECTION
         </h2>
