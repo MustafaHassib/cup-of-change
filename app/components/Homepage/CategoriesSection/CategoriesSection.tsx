@@ -18,19 +18,19 @@ export const CategoriesSection = () => {
       <div className={styles.categories__content}>
         <div className={styles.categories__content__box}>
           <div className={styles.categories__content__box__img}>
-            <Image src={blackTeaIcon} alt="" layout="responsive" />
+            <Image src={blackTeaIcon} alt="" />
           </div>
           <p className={styles.categories__content__box__text}>Black tea</p>
         </div>
         <div className={styles.categories__content__box}>
           <div className={styles.categories__content__box__img}>
-            <Image src={greenTeaIcon} alt="" layout="responsive" />
+            <Image src={greenTeaIcon} alt="" />
           </div>
           <p className={styles.categories__content__box__text}>GREEN TEA</p>
         </div>
         <div className={styles.categories__content__box}>
           <div className={styles.categories__content__box__img}>
-            <Image src={flavouredTeaIcon} alt="" layout="responsive" />
+            <Image src={flavouredTeaIcon} alt="" />
           </div>
           <p className={styles.categories__content__box__text}>
             FLAVOURED BLACK TEA
@@ -38,7 +38,7 @@ export const CategoriesSection = () => {
         </div>
         <div className={styles.categories__content__box}>
           <div className={styles.categories__content__box__img}>
-            <Image src={flavouredGreenTeaIcon} alt="" layout="responsive" />
+            <Image src={flavouredGreenTeaIcon} alt="" />
           </div>
           <p className={styles.categories__content__box__text}>
             FLAVOURED Green TEA
@@ -46,7 +46,7 @@ export const CategoriesSection = () => {
         </div>
         <div className={styles.categories__content__box}>
           <div className={styles.categories__content__box__img}>
-            <Image src={HerbalTeaIcon} alt="" layout="responsive" />
+            <Image src={HerbalTeaIcon} alt="" />
           </div>
           <p className={styles.categories__content__box__text}>
             HERBAL INFUSION
@@ -54,7 +54,7 @@ export const CategoriesSection = () => {
         </div>
         <div className={styles.categories__content__box}>
           <div className={styles.categories__content__box__img}>
-            <Image src={iceTeaIcon} alt="" layout="responsive" />
+            <Image src={iceTeaIcon} alt="" />
           </div>
           <p className={styles.categories__content__box__text}>ICE TEA</p>
         </div>

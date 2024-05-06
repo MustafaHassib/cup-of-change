@@ -16,6 +16,9 @@
     align-items: center;
     list-style: none;
     gap: 2rem;
+    @media (max-width: 575.98px) {
+      display: none;
+    }
     &__item {
       a {
         font-weight: 100;
