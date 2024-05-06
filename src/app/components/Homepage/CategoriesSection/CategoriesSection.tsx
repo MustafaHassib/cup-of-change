@@ -1,10 +1,10 @@
 import styles from './CategoriesSection.module.scss';
-import blackTeaIcon from '../../../../public/images/Image 2.png';
-import greenTeaIcon from '../../../../public/images/Image 3.png';
-import flavouredGreenTeaIcon from '../../../../public/images/Image 6.png';
-import flavouredTeaIcon from '../../../../public/images/Image 7.png';
-import HerbalTeaIcon from '../../../../public/images/Image 9.png';
-import iceTeaIcon from '../../../../public/images/Group 377.png';
+import blackTeaIcon from '../../../../../public/images/Image 2.png';
+import greenTeaIcon from '../../../../../public/images/Image 3.png';
+import flavouredGreenTeaIcon from '../../../../../public/images/Image 6.png';
+import flavouredTeaIcon from '../../../../../public/images/Image 7.png';
+import HerbalTeaIcon from '../../../../../public/images/Image 9.png';
+import iceTeaIcon from '../../../../../public/images/Group 377.png';
 import Image from 'next/image';
 
 export const CategoriesSection = () => {

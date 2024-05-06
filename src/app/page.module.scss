@@ -1,9 +1,9 @@
 .hero {
   color: white;
   min-height: 100vh;
-  padding: 2rem 5rem;
+  padding: 4rem 3rem;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url('../public/images/content-pixie-m-gqDRzbJLQ-unsplash\ \(1\).png');
+    url('../../public/images/content-pixie-m-gqDRzbJLQ-unsplash\ \(1\).png');
 
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -20,6 +20,7 @@
     display: flex;
     justify-content: flex-end;
     gap: 2rem;
+    width: 100%;
     @media (max-width: 575.98px) {
       flex-direction: column;
     }

@@ -2,17 +2,17 @@
 import Image from 'next/image';
 import styles from './AboutSection.module.scss';
 
-import akbarLogo from '../../../../public/images/akbar-logo.png';
-import greenLogo from '../../../../public/images/green-logo.png';
+import akbarLogo from '../../../../../public/images/akbar-logo.png';
+import greenLogo from '../../../../../public/images/green-logo.png';
 import { useCallback, useEffect, useRef } from 'react';
 import gsap from 'gsap';
 
 export const AboutSection = () => {
   const firstText = useRef(null);
   const secondText = useRef(null);
-
   let xPercent = 0;
   let direction = -1;
+
   const animation = useCallback(() => {
     if (xPercent <= -100) {
       xPercent = 0;
