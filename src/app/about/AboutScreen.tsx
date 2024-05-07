@@ -3,6 +3,11 @@ import styles from './AboutScreen.module.scss';
 
 import aboutIntro from '../../../public/images/about/about-intro.jpg';
 import oscarImage from '../../../public/images/about/1@2x.png';
+import image1 from '../../../public/images/about/Group 413.png';
+import image2 from '../../../public/images/about/Image 14.png';
+import image3 from '../../../public/images/about/tailer-img.png';
+import image4 from '../../../public/images/about/Image 15.png';
+import image5 from '../../../public/images/about/0.70415800_1620658068_45.png';
 
 export const AboutScreen = () => {
   return (
@@ -62,7 +67,241 @@ export const AboutScreen = () => {
           <div className={styles.akbar_brand__content__img}>
             <Image src={oscarImage} alt="" />
           </div>
-          <div className={styles.akbar_brand__content__tabs}></div>
+          <div className={styles.akbar_brand__content__tabs}>
+            <div className={styles.akbar_brand__content__tabs__tab}>
+              <div className={styles.akbar_brand__content__tabs__tab__text}>
+                <p>Best Exporter In Sri Lankan Tea Industry</p>
+                <p>Globally Outreached Sri Lankan Brand</p>
+              </div>
+              <div className={styles.akbar_brand__content__tabs__tab__date}>
+                <p>2022 / 2023</p>
+              </div>
+            </div>
+            <div className={styles.akbar_brand__content__tabs__tab}>
+              <div className={styles.akbar_brand__content__tabs__tab__text}>
+                <p>Best Exporter In Sri Lankan Tea Industry</p>
+                <p>Globally Outreached Sri Lankan Brand</p>
+              </div>
+              <div className={styles.akbar_brand__content__tabs__tab__date}>
+                <p>2022 / 2023</p>
+              </div>
+            </div>
+            <div className={styles.akbar_brand__content__tabs__tab}>
+              <div className={styles.akbar_brand__content__tabs__tab__text}>
+                <p>Best Exporter In Sri Lankan Tea Industry</p>
+                <p>Globally Outreached Sri Lankan Brand</p>
+              </div>
+              <div className={styles.akbar_brand__content__tabs__tab__date}>
+                <p>2022 / 2023</p>
+              </div>
+            </div>
+            <div className={styles.akbar_brand__content__tabs__tab}>
+              <div className={styles.akbar_brand__content__tabs__tab__text}>
+                <p>Best Exporter In Sri Lankan Tea Industry</p>
+                <p>Globally Outreached Sri Lankan Brand</p>
+              </div>
+              <div className={styles.akbar_brand__content__tabs__tab__date}>
+                <p>2022 / 2023</p>
+              </div>
+            </div>
+            <div className={styles.akbar_brand__content__tabs__tab}>
+              <div className={styles.akbar_brand__content__tabs__tab__text}>
+                <p>Best Exporter In Sri Lankan Tea Industry</p>
+                <p>Globally Outreached Sri Lankan Brand</p>
+              </div>
+              <div className={styles.akbar_brand__content__tabs__tab__date}>
+                <p>2022 / 2023</p>
+              </div>
+            </div>
+
+            <div className={styles.akbar_brand__content__tabs__tab}>
+              <div className={styles.akbar_brand__content__tabs__tab__text}>
+                <p>Best Exporter In Sri Lankan Tea Industry</p>
+                <p>Globally Outreached Sri Lankan Brand</p>
+              </div>
+              <div className={styles.akbar_brand__content__tabs__tab__date}>
+                <p>2022 / 2023</p>
+              </div>
+            </div>
+            <div className={styles.akbar_brand__content__tabs__tab}>
+              <div className={styles.akbar_brand__content__tabs__tab__text}>
+                <p>Best Exporter In Sri Lankan Tea Industry</p>
+                <p>Globally Outreached Sri Lankan Brand</p>
+              </div>
+              <div className={styles.akbar_brand__content__tabs__tab__date}>
+                <p>2022 / 2023</p>
+              </div>
+            </div>
+            <div className={styles.akbar_brand__content__tabs__tab}>
+              <div className={styles.akbar_brand__content__tabs__tab__text}>
+                <p>Best Exporter In Sri Lankan Tea Industry</p>
+                <p>Globally Outreached Sri Lankan Brand</p>
+              </div>
+              <div className={styles.akbar_brand__content__tabs__tab__date}>
+                <p>2022 / 2023</p>
+              </div>
+            </div>
+            <div className={styles.akbar_brand__content__tabs__tab}>
+              <div className={styles.akbar_brand__content__tabs__tab__text}>
+                <p>Best Exporter In Sri Lankan Tea Industry</p>
+                <p>Globally Outreached Sri Lankan Brand</p>
+              </div>
+              <div className={styles.akbar_brand__content__tabs__tab__date}>
+                <p>2022 / 2023</p>
+              </div>
+            </div>
+            <div className={styles.akbar_brand__content__tabs__tab}>
+              <div className={styles.akbar_brand__content__tabs__tab__text}>
+                <p>Best Exporter In Sri Lankan Tea Industry</p>
+                <p>Globally Outreached Sri Lankan Brand</p>
+              </div>
+              <div className={styles.akbar_brand__content__tabs__tab__date}>
+                <p>2022 / 2023</p>
+              </div>
+            </div>
+            <div className={styles.akbar_brand__content__tabs__tab}>
+              <div className={styles.akbar_brand__content__tabs__tab__text}>
+                <p>Best Exporter In Sri Lankan Tea Industry</p>
+                <p>Globally Outreached Sri Lankan Brand</p>
+              </div>
+              <div className={styles.akbar_brand__content__tabs__tab__date}>
+                <p>2022 / 2023</p>
+              </div>
+            </div>
+            <div className={styles.akbar_brand__content__tabs__tab}>
+              <div className={styles.akbar_brand__content__tabs__tab__text}>
+                <p>Best Exporter In Sri Lankan Tea Industry</p>
+                <p>Globally Outreached Sri Lankan Brand</p>
+              </div>
+              <div className={styles.akbar_brand__content__tabs__tab__date}>
+                <p>2022 / 2023</p>
+              </div>
+            </div>
+            <div className={styles.akbar_brand__content__tabs__tab}>
+              <div className={styles.akbar_brand__content__tabs__tab__text}>
+                <p>Best Exporter In Sri Lankan Tea Industry</p>
+                <p>Globally Outreached Sri Lankan Brand</p>
+              </div>
+              <div className={styles.akbar_brand__content__tabs__tab__date}>
+                <p>2022 / 2023</p>
+              </div>
+            </div>
+            <div className={styles.akbar_brand__content__tabs__tab}>
+              <div className={styles.akbar_brand__content__tabs__tab__text}>
+                <p>Best Exporter In Sri Lankan Tea Industry</p>
+                <p>Globally Outreached Sri Lankan Brand</p>
+              </div>
+              <div className={styles.akbar_brand__content__tabs__tab__date}>
+                <p>2022 / 2023</p>
+              </div>
+            </div>
+            <div className={styles.akbar_brand__content__tabs__tab}>
+              <div className={styles.akbar_brand__content__tabs__tab__text}>
+                <p>Best Exporter In Sri Lankan Tea Industry</p>
+                <p>Globally Outreached Sri Lankan Brand</p>
+              </div>
+              <div className={styles.akbar_brand__content__tabs__tab__date}>
+                <p>2022 / 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.ceylon_tea}>
+        <div className={styles.ceylon_tea__head}>
+          <div className={styles.ceylon_logo}>
+            <Image src={image1} alt="ceylon logo" />
+          </div>
+          <div className={styles.ceylon_tea__head__text}>
+            <h3>CEYLON TEA</h3>
+            <p>
+              By 1880, The Hitherto Thriving Coffee Industry In Ceylon Had Been
+              Ravaged To Virtual Non-Existence By The Blight. Nearly Quarter Of
+              Million Acres Of Coffee Plants Were Uprooted And The Tea (Camellia
+              Thea) Plant Was Accorded Its Pride Of Place Instead. Thus Began
+              The Great Ceylon Tea Industry.
+            </p>
+          </div>
+        </div>
+        <div className={styles.ceylon_tea__bg}>
+          <Image src={image2} alt="1366 pic" />
+        </div>
+
+        <div className={styles.ceylon_tea__brief}>
+          <div className={styles.ceylon_tea__brief__body}>
+            <div className={styles.ceylon_tea__brief__body__img}>
+              <Image src={image3} layout="responsive" alt="tailer" />
+            </div>
+
+            <div className={styles.ceylon_tea__brief__body__history}>
+              <p>
+                This Tea Saga Of Ceylon Begins With Tea Seeds And Young Tea
+                Plants Of The Assam Jat Imported From The Botanical Gardens In
+                Calcutta, Being Experimentally Planted In The Peradeniya
+                Botanical Gardens Near Kandy In 1839. In Addition, A Handful Of
+                More Enterprising Coffee Planters Too Had Cleared The Odd Half
+                Acre And Planted It With Tea. Being Chiefly Concerned With
+                Lucrative Coffee, Planters In General Had No Time For Tea And
+                Those Experimental Plots Too Were Forgotten In Time For Some
+                Thirty Years.
+              </p>
+              <p>
+                However, Tea Did Grow. Moreover, It Was Noted That Tea Grew Well
+                In The Hills Of Ceylon. However, The First Commercially Planted
+                Tea Happened In 1867 At Loolecondera Estate By A Scotsman Named
+                James Taylor When Coffee Industry Was Being Severely Plagued By
+                The Blight. The First Recorded Shipment Of Tea Came Five Years
+                Later In 1872 With The Export Of 23 Pounds, Valued At 58 Rupees.
+                The First Vessel Recorded As Carrying Ceylon Tea To England Was
+                The Steam-Ship ‘Duke Argyll’ In 1877.
+              </p>
+              <div className={styles.persons}>
+                <Image src={image4} layout="responsive" alt="persons" />
+              </div>
+              <p>
+                Economically Devastated By The Coffee Leaf Disease By The Early
+                1880’S, Coffee Planters Stampeded Into Tea, Which Was Then Fast
+                Gathering Momentum. Experienced Tea Makers And Cultivators From
+                China And India Were Freely Given To Planters In Ceylon. To Meet
+                The Unmanageable Demand For Tea Plants, Seeds Were Imported From
+                Assam , And To A Lesser Extent China , Which Were Natured In Tea
+                Nurseries In Several Suitable Locations.
+              </p>
+              <p>
+                {' '}
+                Ceylon Tea Grows From Almost Sea Level To 7000 Ft. The Climate
+                Of Ceylon (Now Sri Lanka) Varies Very Much According To
+                Locality, And, Has A Marked Effect On The Flavor And Quality Of
+                Tea.
+              </p>
+            </div>
+          </div>
+          <div className={styles.kenyan_tea}>
+            <h3>KENYAN TEA</h3>
+            <p>
+              The Incursion Of Kenyan Tea Dates Back To The Early 20Th Century
+              When Planters, Experienced Workers, And Tea Companies From Ceylon
+              (Now Sri Lanka) Ventured To Kenya. This Migration Was Driven By
+              Various Factors Such As Favorable Climate Conditions, Fertile
+              Soils, And Government Incentives In Kenya That Encouraged Tea
+              Cultivation.The Experienced Tea Planters Brought Their Expertise
+              And Knowledge Of Tea Cultivation And Processing Techniques To
+              Kenya, Laying The Foundation For The Kenyan Tea Industry. They
+              Implemented Modern Farming Methods, Improved Processing
+              Technologies, And Established Large-Scale Tea Estates Across The
+              Highlands Of Kenya.Over Time, Kenya Emerged As A Significant
+              Player In The Global Tea Market, Known Particularly For Its Robust
+              And Brisk Teas. The Influx Of Skilled Labor And Investment From
+              Ceylon Contributed Significantly To The Rapid Growth And Success
+              Of The Kenyan Tea Industry, Shaping Its Identity And Establishing
+              It As A Key Producer Of High-Quality Teas On The International
+              Stage.
+            </p>
+          </div>
+        </div>
+        <div className={styles.farmers}>
+          <Image src={image5} alt="" />
         </div>
       </div>
     </div>
