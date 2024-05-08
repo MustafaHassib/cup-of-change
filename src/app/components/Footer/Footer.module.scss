@@ -2,6 +2,17 @@
   width: 100%;
   background-color: #145026;
   padding: 0 5rem;
+  @media (max-width: 575.98px) {
+    padding: 1rem;
+  }
+  .logo {
+    @media (max-width: 575.98px) {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
   .footer_body {
     display: flex;
     justify-content: space-between;
@@ -9,6 +20,11 @@
     font-size: 12px;
     position: relative;
     padding-block: 4rem;
+    @media (max-width: 575.98px) {
+      padding: 1rem 0;
+      flex-direction: column;
+      gap: 1rem;
+    }
     ul {
       list-style: none;
       display: flex;
@@ -33,6 +49,9 @@
       font-size: 20px;
       color: white;
       gap: 1rem;
+      @media (max-width: 575.98px) {
+        width: 100%;
+      }
       &__title {
         display: flex;
         flex-direction: column;
@@ -92,19 +111,31 @@
     color: #b8b8b8;
     padding-block: 1.5rem;
     border-top: 1px solid white;
-
+    @media (max-width: 575.98px) {
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
     .languages,
     .privacy,
     .copyrights {
       font-weight: 200;
       font-size: 0.8rem;
       flex: 1;
+      @media (max-width: 575.98px) {
+        flex: auto;
+      }
     }
     .copyrights {
       text-align: end;
+      @media (max-width: 575.98px) {
+        text-align: center;
+      }
     }
     .privacy {
       text-align: center;
+      @media (max-width: 575.98px) {
+        text-align: end;
+      }
     }
   }
 }

@@ -10,7 +10,9 @@ export const Navbar = () => {
   return (
     <nav
       className={`${
-        (pathname === '/contactus' || pathname === '/our-brands') &&
+        (pathname === '/contactus' ||
+          pathname === '/our-selection' ||
+          pathname === '/our-brands') &&
         styles.contact_page
       } ${styles.nav}`}
     >
@@ -38,7 +40,12 @@ export const Navbar = () => {
           <a href="#!">Manufaturing & Certifications</a>
         </li>
         <li className={`${styles.nav__list__item}`}>
-          <a href="#!">Our Selection</a>
+          <Link
+            className={`${pathname === '/our-selection' && styles.active_item}`}
+            href="our-selection"
+          >
+            Our Selection
+          </Link>
         </li>
         <li className={`${styles.nav__list__item}`}>
           <Link

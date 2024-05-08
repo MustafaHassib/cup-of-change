@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <footer id={styles.footer}>
       <div className={styles.footer_body}>
-        <div className="logo">
+        <div className={styles.logo}>
           <Image src={logo} alt="site logo" />
         </div>
         <div>
