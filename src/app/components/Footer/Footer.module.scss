@@ -25,6 +25,11 @@
       flex-direction: column;
       gap: 2rem;
     }
+    a {
+      &:hover {
+        border-bottom: 1px solid white;
+      }
+    }
     ul {
       list-style: none;
       display: flex;
