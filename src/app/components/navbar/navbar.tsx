@@ -18,7 +18,9 @@ export const Navbar = () => {
       } ${styles.nav}`}
     >
       <div className={`${styles.logo}`}>
-        <h1>A cup of change</h1>
+        <Link href="./">
+          <h1>A cup of change</h1>
+        </Link>
       </div>
       <ul className={`${styles.nav__list}`}>
         <li className={`${styles.nav__list__item}`}>
