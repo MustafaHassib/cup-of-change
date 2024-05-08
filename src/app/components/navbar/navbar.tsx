@@ -9,9 +9,10 @@ export const Navbar = () => {
 
   return (
     <nav
-      className={`${pathname === '/contactus' && styles.contact_page} ${
-        styles.nav
-      }`}
+      className={`${
+        (pathname === '/contactus' || pathname === '/our-brands') &&
+        styles.contact_page
+      } ${styles.nav}`}
     >
       <div className={`${styles.logo}`}>
         <h1>A cup of change</h1>
@@ -40,7 +41,12 @@ export const Navbar = () => {
           <a href="#!">Our Selection</a>
         </li>
         <li className={`${styles.nav__list__item}`}>
-          <a href="#!">Our Brands</a>
+          <Link
+            className={`${pathname === '/our-brands' && styles.active_item}`}
+            href="our-brands"
+          >
+            Our Brands
+          </Link>
         </li>
         <li className={`${styles.nav__list__item} ${styles.nav__list__btn}`}>
           <Link
