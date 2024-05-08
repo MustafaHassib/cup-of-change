@@ -11,6 +11,7 @@ export const Navbar = () => {
     <nav
       className={`${
         (pathname === '/contactus' ||
+          pathname === '/manufacturing' ||
           pathname === '/our-selection' ||
           pathname === '/our-brands') &&
         styles.contact_page
@@ -37,7 +38,12 @@ export const Navbar = () => {
           </Link>
         </li>
         <li className={`${styles.nav__list__item}`}>
-          <a href="#!">Manufaturing & Certifications</a>
+          <Link
+            className={`${pathname === '/manufacturing' && styles.active_item}`}
+            href="manufacturing"
+          >
+            Manufaturing & Certifications
+          </Link>
         </li>
         <li className={`${styles.nav__list__item}`}>
           <Link
