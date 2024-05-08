@@ -8,6 +8,12 @@
   top: 0;
   left: 0;
   width: 100%;
+  &.contact_page {
+    color: #145026;
+    .nav__list__btn {
+      border-color: #145026;
+    }
+  }
   .logo {
     text-transform: uppercase;
   }
@@ -21,7 +27,7 @@
     }
     &__item {
       a {
-        font-weight: 100;
+        font-weight: 200;
         font-size: 1rem;
         &.active_item {
           font-weight: 600;
@@ -33,7 +39,10 @@
       }
     }
     &__btn {
-      padding: 0.5rem 1rem;
+      a {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+      }
       border: 1px solid white;
     }
   }

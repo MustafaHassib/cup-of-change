@@ -8,7 +8,11 @@ export const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <nav className={styles.nav}>
+    <nav
+      className={`${pathname === '/contactus' && styles.contact_page} ${
+        styles.nav
+      }`}
+    >
       <div className={`${styles.logo}`}>
         <h1>A cup of change</h1>
       </div>
@@ -39,12 +43,17 @@ export const Navbar = () => {
           <a href="#!">Our Brands</a>
         </li>
         <li className={`${styles.nav__list__item} ${styles.nav__list__btn}`}>
-          <a href="#!">Contact us</a>
+          <Link
+            className={`${pathname === '/contactus' && styles.active_item}`}
+            href="contactus"
+          >
+            Contact us
+          </Link>
         </li>
         <li
           className={`${styles.nav__list__item} ${styles.nav__list__lang_switch}`}
         >
-          <a href="#!">Contact us</a>
+          <a href="#!">EN</a>
         </li>
       </ul>
     </nav>
