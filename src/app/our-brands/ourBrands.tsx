@@ -23,7 +23,7 @@ export const OurBrands = () => {
         </div>
         <div className={styles.brand__info}>
           <h4>THE AKBAR BRAND</h4>
-          <p>
+          <p className={styles.desc}>
             The Akbar Brothers Heritage Dates Far Back To The Intial Cultivation
             Of The Fine Ceylon Tea On The Sri Lankan Mountain Slopes. The
             Akbarally Family Has Been Involved In Its Selection, Blending,
@@ -36,7 +36,7 @@ export const OurBrands = () => {
         <div className={styles.separator}>
           <Image src={brandBg} alt="akbar field" />
         </div>
-        <p>
+        <p className={styles.desc}>
           A Force Against Time, Akbar Brothers Maintains Closely To Principles
           Established By Its Revered Founders, Abbas And Inayet Akbarally: An
           Emphasis On Product Quality Based On Exhaustive Knowledge And
@@ -45,7 +45,7 @@ export const OurBrands = () => {
           To This Day, Every Consignment Of Akbar Tea Is Personally Approved By
           A Family Member Before It Is Shipped.
         </p>
-        <p>
+        <p className={styles.desc}>
           In Addition To Being The World’s Largest Exporter Of Ceylon Tea, Akbar
           Brothers Has Successfully Diversified Into A Range Of Sectors Through
           Strategic Reinvention And Expansion. Today, The Group Has A Firm

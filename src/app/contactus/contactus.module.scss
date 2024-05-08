@@ -2,6 +2,10 @@
   display: flex;
   gap: 2rem;
   padding: 10rem 2.5rem 5rem;
+  @media (max-width: 575.98px) {
+    flex-direction: column;
+    padding: 4rem 1rem;
+  }
   input,
   textarea {
     font-size: 1rem;
@@ -44,9 +48,15 @@
         display: flex;
         flex-wrap: wrap;
         gap: 3rem;
+        @media (max-width: 575.98px) {
+          gap: 1rem;
+        }
       }
       input {
         width: calc(100% / 2 - 1.5rem);
+        @media (max-width: 575.98px) {
+          width: calc(100% / 2 - 0.5rem);
+        }
       }
       textarea {
         resize: none;
@@ -76,12 +86,18 @@
     width: 100%;
     margin-top: 2rem;
     justify-content: space-between;
+    @media (max-width: 575.98px) {
+      flex-direction: column;
+    }
     &__details {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
       width: calc(100% / 2 - 2rem);
       gap: 0.5rem;
+      @media (max-width: 575.98px) {
+        width: 100%;
+      }
       h6 {
         font-weight: bold;
         font-size: 1.3rem;

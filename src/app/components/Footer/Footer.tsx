@@ -1,8 +1,13 @@
+'use client';
 import Image from 'next/image';
 import styles from './Footer.module.scss';
 import logo from '../../../../public/images/Group 16.svg';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 export const Footer = () => {
+  const pathname = usePathname();
+
   return (
     <footer id={styles.footer}>
       <div className={styles.footer_body}>
@@ -21,10 +26,38 @@ export const Footer = () => {
         <div>
           <ul>
             <li className={styles.list_title}>Useful Links</li>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Our Products</li>
-            <li>Contact Us</li>
+            <li>
+              <Link
+                className={`${pathname === '/' && styles.active_item}`}
+                href="./"
+              >
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                className={`${pathname === '/' && styles.active_item}`}
+                href="about"
+              >
+                About Us
+              </Link>
+            </li>
+            <li>
+              <Link
+                className={`${pathname === '/' && styles.active_item}`}
+                href="our-brands"
+              >
+                Our Products
+              </Link>
+            </li>
+            <li>
+              <Link
+                className={`${pathname === '/' && styles.active_item}`}
+                href="contactus"
+              >
+                Contact Us
+              </Link>
+            </li>
           </ul>
         </div>
         <div>
