@@ -5,7 +5,7 @@
     padding: 4rem 1rem;
   }
   &__hero {
-    min-height: 30vh;
+    min-height: 40vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url('../../../public/images/Mask Group 5@2x.png');
     background-size: cover;
@@ -105,6 +105,7 @@
   margin-top: 3rem;
   margin-bottom: 5rem;
   &__btn {
+    cursor: pointer;
     border-radius: 2px;
     padding: 1rem 2.5rem;
     border: 1px solid #151515;
@@ -113,7 +114,7 @@
     color: #151515;
     font-weight: 600;
     &:hover {
-      color: var(--main-white);
+      color: white;
       background-color: #145026;
     }
   }
